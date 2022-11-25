@@ -1,0 +1,58 @@
+.mr{
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+.front{
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+.mine{
+    letter-spacing: 1cm;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+
+.mine > a > button{
+    margin-bottom: 300px;
+    text-align: left;
+    margin-left: 5px;
+}
+.download{
+    color: rgb(249, 249, 249);
+    border: 3px solid white;
+    background-color: rgb(9, 9, 9);
+padding: 5px;
+font-weight: bold;
+    border-radius: 2px;
+    margin-right: 20px;
+margin-top: 15px;
+cursor: pointer;
+}
+.download:hover{
+    color: rgb(11, 11, 11);
+    background-color: aliceblue;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+
+
+.work{
+    color: rgb(249, 249, 249);
+    border: 3px solid white;
+    background-color: rgb(9, 9, 9);
+padding: 5px;
+font-weight: bold;
+    border-radius: 2px;
+    margin-right:30px;
+margin-top: 15px;
+cursor: pointer;
+
+}
+.work:hover{
+    color: rgb(11, 11, 11);
+    background-color: aliceblue;
+    
+border: 3px solid black;
+    border-radius: 2px;
+}
