@@ -1,0 +1,111 @@
+.projects{
+display: flex;
+z-index: 2000;
+margin-top: 400px;
+color: #ffffff;
+
+
+
+
+}
+
+.divide1{
+    flex: o.5;
+    margin-left: 150px;
+    text-align: center;
+    
+}
+.divide1>p{
+    font-size: large;
+    font-weight: bolder;
+    border: solid 2px white;
+    margin-left:10px ;
+}
+.divide2>p{
+    font-size: large;
+    font-weight: bolder;
+   margin-left: 100px;
+   margin-right: 100px;
+    border: solid 2px white;
+}
+.calc>p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -25px;
+}
+.ttt>p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -25px;
+}
+.pf>p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -25px;
+}
+.divide2{
+    flex: 0.5;
+    margin-left: 400px;
+    text-align: center;
+
+
+}
+.calcc>img{
+    transition: 0.3s;
+      filter: blur(5px); 
+    width: 130px;
+        height: 195px;
+        background: rgba(255, 255, 255, 0) no-repeat;
+        margin: 50px;
+        background-size: contain;
+        border: solid 2px rgb(255, 255, 255);
+
+        
+}
+.calcc>img:hover{
+    
+    background-size: contain;
+    background-position: center;
+    padding: 2px;
+    border: solid 2px rgb(255, 255, 255);
+    filter: blur(0px);
+}
+   
+.tttt>img{
+    transition: 0.3s;
+      filter: blur(5px); 
+    width: 130px;
+        height: 195px;
+        background: rgba(255, 255, 255, 0) no-repeat;
+        margin: 50px;
+        background-size: contain;
+        border: solid 2px rgb(255, 255, 255);
+
+}
+.tttt>img:hover{
+    border: solid 2px #ffffff;
+    background-size: contain;
+    background-position: center;
+    padding: 2px;
+    filter: blur(0px);
+}
+.pff>img{
+    transition: 0.3s;
+      filter: blur(5px); 
+    width: 190px;
+        height: 125px;
+        background: rgba(255, 255, 255, 0) no-repeat;
+        margin: 50px;
+        background-size: contain;
+        border: solid 2px rgb(255, 255, 255);
+
+}
+.pff>img:hover{
+    border: solid 2px rgb(255, 255, 255);
+    
+    background-size: contain;
+    background-position: center;
+    padding: 2px;
+    filter: blur(0px);
+}
+

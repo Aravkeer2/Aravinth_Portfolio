@@ -1,0 +1,95 @@
+
+.skillpage{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+    
+}
+
+.image{
+    
+    flex: 0.4;
+    margin-top: 50px;
+    
+}
+.image>img{
+    margin-top: 120px;
+    width: 600px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+
+.skillset{
+    flex: 0.6;
+     text-align: left;
+     max-width: 500px;
+     margin-bottom: 20px;
+    color: aliceblue; 
+    margin-left: 800px;
+    margin-top: -500px;
+}
+.skillset>h2{
+    color: antiquewhite;
+    font-size: 30px;
+
+    
+}
+.skillset__react{
+    padding-bottom: 20px;
+}
+.skillset__react>div>.MuiLinearProgress-root {
+    background-color: rgb(143, 155, 157);
+}
+.skillset__javascript{
+    padding-bottom: 20px;
+}
+.skillset__javascript>div>.MuiLinearProgress-root {
+    background-color: rgb(143, 155, 157);
+}
+.skillset__css{
+    padding-bottom: 20px;
+}
+.skillset__css>div>.MuiLinearProgress-root{
+    background-color: rgb(143, 155, 157);
+}
+.skillset__html{
+    padding-bottom: 20px;
+}
+.skillset__html>div>.MuiLinearProgress-root{
+    background-color: rgb(143, 155, 157);
+}
+.skillset__java{
+    padding-bottom: 20px;
+}
+.skillset__java>div>.MuiLinearProgress-root{
+    background-color: rgb(143, 155, 157);
+}
+.skillset__sql{
+    padding-bottom: 20px;
+}
+.skillset__sql>div>.MuiLinearProgress-root{
+    background-color: rgb(143, 155, 157);
+}
+
+.skillset__react>div>span>.MuiLinearProgress-bar{
+    background-color: rgb(234, 11, 11);
+}
+.skillset__javascript>div>span>.MuiLinearProgress-bar{
+    background-color: rgb(0, 213, 255);
+}
+.skillset__java>div>span>.MuiLinearProgress-bar{
+    background-color: rgb(251, 117, 0);
+}
+.skillset__css>div>span>.MuiLinearProgress-bar{
+    background-color: rgba(24, 0, 239, 0.936);
+}
+.skillset__html>div>span>.MuiLinearProgress-bar{
+    background-color: rgb(255, 247, 1);
+}
+.skillset__sql>div>span>.MuiLinearProgress-bar{
+    background-color: rgb(218, 7, 251);
+}
+
+
+

@@ -1,0 +1,20 @@
+.project> image{
+    width: 350px;
+    height: 179px;
+
+}
+.project{
+    margin: 15px;
+    width: 350px;
+    height: 179px;
+    transition: transform 100ms ease-in;
+}
+.project:hover{
+    color: aliceblue;
+    background-color: blue;
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

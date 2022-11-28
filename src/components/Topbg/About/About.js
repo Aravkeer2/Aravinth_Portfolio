@@ -6,7 +6,7 @@ const About = () => {
     <div className='mine'>
       <h1 className='mr'>Mr.Aravinth</h1>
       <h4 className='front'> Front-end Developer</h4>
-    <a href="www.google.com">
+    <a href='https://www.youtube.com/watch?v=mHoNGXWam2w&t=4879s'>
       <button className='download'>Download CV</button>
       </a>
 

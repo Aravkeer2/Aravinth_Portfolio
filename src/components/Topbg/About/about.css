@@ -1,10 +1,10 @@
 .mr{
-    color: aliceblue;
+    color: rgb(57, 151, 233);
     letter-spacing: 2px;
 }
 .front{
     letter-spacing: 1px;
-    color: aliceblue;
+    color: rgb(19, 89, 151);
 }
 .mine{
     letter-spacing: 1cm;
