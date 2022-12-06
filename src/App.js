@@ -2,8 +2,8 @@ import React from 'react'
 import Header from './components/Header/Header'
 import Topbg from './components/Topbg/Topbg'
 import Skill from './components/Skill/Skill'
-import ProjectContainer from './components/ProjectContainer/ProjectContainer'
-import Contact from './components/Contact/Contact'
+import Project from './components/Project/ProjectContainer'
+import Footer from './components/Footer/Footer'
 
 
 const App = () => {
@@ -12,8 +12,8 @@ const App = () => {
       <Header/>
       <Topbg/>
       <Skill/>
-      <ProjectContainer/>
-      <Contact/>
+      <Project/>
+      <Footer/>
       
     </div>
   )

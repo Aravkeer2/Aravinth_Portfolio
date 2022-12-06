@@ -1,6 +1,6 @@
 import React from 'react'
 import { Element } from 'react-scroll'
-import './contact.css'
+import './footer.css'
 import { SiIndeed } from "react-icons/si";
 import { BsTwitter } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
@@ -9,9 +9,9 @@ import { BsDribbble } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import mapp from './mapp.jpg'
 
-const Contact = () => {
+const Footer = () => {
   return (
-    <Element id='contact' className='contact'>            
+    <Element id='footer' className='contact'>            
             <div className='threeblock'>
                 <div className='left'>
 
@@ -101,4 +101,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Footer

@@ -25,7 +25,7 @@ const Header = () => {
 
             
 
-            <Link to='contact' smooth={true} duration={500} >
+            <Link to='footer' smooth={true} duration={500} >
             <h4>Contact</h4>
             </Link>
 <a  className='calllink' href="tel:+91 6379058438">
