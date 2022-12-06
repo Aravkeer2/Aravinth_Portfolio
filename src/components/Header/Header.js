@@ -23,16 +23,14 @@ const Header = () => {
             <h4>Projects</h4>
             </Link>
 
-            <Link to='education' smooth={true} duration={500} >
-            <h4>Education</h4>
-            </Link>
+            
 
             <Link to='contact' smooth={true} duration={500} >
             <h4>Contact</h4>
             </Link>
-
+<a  className='calllink' href="tel:+91 6379058438">
              <div className='call'><h4>Call</h4></div>
-            
+            </a>
             
             
         </div>

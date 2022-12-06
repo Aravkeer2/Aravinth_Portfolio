@@ -1,60 +1,109 @@
 .projects{
-display: flex;
-z-index: 2000;
-margin-top: 400px;
+display:flex;
+object-fit: contain;
+margin-top: 300px;
 color: #ffffff;
-
-
-
-
 }
-
 .divide1{
-    flex: o.5;
-    margin-left: 150px;
-    text-align: center;
-    
+    object-fit: contain;
+     flex:50%;
+    margin-left: 1px;    
 }
 .divide1>p{
+    color: aquamarine;
     font-size: large;
     font-weight: bolder;
-    border: solid 2px white;
+    text-align: center;
+    margin-top:100px ;
+    border: solid 2px rgb(158, 130, 130);
     margin-left:10px ;
+    margin-right: 10px;
+    object-fit: contain;
+}  
+.d{
+    
+    color: antiquewhite;
+    margin-left:290px;
+    margin-top: -300px;
+    object-fit: contain;
+
+} 
+.b{
+    color: antiquewhite;
+    margin-left:250px;
+    margin-top: -380px;
+    object-fit: contain;
 }
+.c{
+    
+    color: antiquewhite;
+    margin-left:250px;
+    margin-top: -350px;
+    object-fit: contain;
+
+    
+}
+
 .divide2>p{
+    color: aquamarine;
     font-size: large;
     font-weight: bolder;
-   margin-left: 100px;
-   margin-right: 100px;
-    border: solid 2px white;
+    text-align: center;
+    margin-top:100px ;
+    border: solid 2px rgb(158, 130, 130);
+    margin-left:10px ;
+    margin-right: 10px;
+}
+.calc{
+    
+    margin-left: 10px;
+    padding-bottom: 20px;
+    object-fit: contain;
+}
+.ttt{
+    margin-left: 10px;
+    padding-bottom: 150px;
+    object-fit: contain;
+}
+
+.pf{
+    margin-left: 10px;
+    padding-bottom: 150px;
+    object-fit: contain;
+
 }
 .calc>p{
-    text-align: center;
+    color: aquamarine;
+    margin-left: 58px;
     font-weight: bold;
-    margin-top: -25px;
+    margin-top: -45px;
+    padding: 15px;
+    
 }
 .ttt>p{
-    text-align: center;
+    color: aquamarine;
+    margin-left: 55px;
     font-weight: bold;
-    margin-top: -25px;
+    margin-top: -45px;
+    padding: 15px;
 }
 .pf>p{
-    text-align: center;
+    color: aquamarine;
+    margin-left: 95px;
     font-weight: bold;
-    margin-top: -25px;
+    margin-top: -45px;
+    padding: 15px;
 }
 .divide2{
-    flex: 0.5;
-    margin-left: 400px;
-    text-align: center;
-
-
+    flex: 50%;
 }
+
 .calcc>img{
+    
     transition: 0.3s;
       filter: blur(5px); 
     width: 130px;
-        height: 195px;
+        height: 200px;
         background: rgba(255, 255, 255, 0) no-repeat;
         margin: 50px;
         background-size: contain;
@@ -75,7 +124,7 @@ color: #ffffff;
     transition: 0.3s;
       filter: blur(5px); 
     width: 130px;
-        height: 195px;
+        height: 200px;
         background: rgba(255, 255, 255, 0) no-repeat;
         margin: 50px;
         background-size: contain;

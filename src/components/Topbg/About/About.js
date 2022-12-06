@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import './about.css'
+import resume from './Aravindasamy.pdf'
+
 const About = () => {
   return (
     <div className='mine'>
       <h1 className='mr'>Mr.Aravinth</h1>
       <h4 className='front'> Front-end Developer</h4>
-    <a href='https://www.youtube.com/watch?v=mHoNGXWam2w&t=4879s'>
+    <a href={resume}>
       <button className='download'>Download CV</button>
       </a>
 

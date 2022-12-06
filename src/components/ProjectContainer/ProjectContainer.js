@@ -18,16 +18,20 @@ const ProjectContainer = () => {
         </div>
         
         </a>
-        <p>calculator</p>
+        <p>Calculator</p>
         </div>
+        
 <div className='ttt'>
         <a href="https://github.com/Aravkeer2/Tic-Tok-Toe" >
         <div className='tttt'>
         <img src={ttt} alt="ji"/>
         </div>
         </a>
-        <p>tik-tok-toe</p>
+        <p>Tik-Tok-Toe</p>
         </div>
+        <h3 className='c'>Created a simple Tic-Tok-Toe App using JAVA & XML in Android Studio </h3>
+        <h3 className='b'>Created a simple Calculator App using JAVA & XML in Android Studio </h3>
+        
         </div>
 <div className='divide2'>
 <p>Simple websites</p><div className='pf'>
@@ -35,8 +39,9 @@ const ProjectContainer = () => {
           <div className='pff'><img src={web} alt="ji"/>
           </div>
         </a>
-        <p>portfolio</p>
+        <p>Portfolio</p>
         </div>
+        <h3 className='d'>Created a Portfolio  using HTML, CSS and ReactJS in VScode </h3>
                         
         </div></div>
   )
